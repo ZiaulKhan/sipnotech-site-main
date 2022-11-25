@@ -1,0 +1,107 @@
+.sipnotech__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3.5rem;
+}
+.sipnotech__navbar-links_logo {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 2.25rem;
+}
+span {
+  color: var(--color-orange);
+  font-family: var(--font-family);
+}
+.sipnotech__navbar-links_li {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 0rem 1.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+button {
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: var(--color-orange);
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  color: var(--color-text);
+}
+
+.sipnotech__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sipnotech__navbar-links_container {
+  display: flex;
+  align-items: center;
+}
+
+.sipnotech__navbar-menu {
+  display: none;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .sipnotech__navbar {
+    padding: 1rem;
+  }
+  .sipnotech__navbar-links_logo_container {
+    width: 100%;
+    text-align: center;
+  }
+  .sipnotech__navbar-links_container {
+    display: none;
+  }
+  .sipnotech__navbar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .sipnotech__navbar-menu_container-links {
+    position: absolute;
+    left: 0rem;
+    margin: 0.5rem 0rem;
+    background-color: var(--color-bg);
+    padding: 1rem 1rem;
+    border-radius: 0.4rem;
+    z-index: 15;
+    width: 90vw;
+  }
+  li {
+    text-align: start;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    padding: 0.5rem 0rem;
+    font-weight: bold;
+  }
+  button {
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--color-orange);
+    padding: 0.3rem 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    color: var(--color-text);
+    border: none;
+  }
+  .sipnotech__navbar-links_logo {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    margin-right: 2rem;
+  }
+  span {
+    color: var(--color-orange);
+    font-family: var(--font-family);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sipnotech__navbar-menu {
+    margin-left: 0.5rem;
+  }
+}

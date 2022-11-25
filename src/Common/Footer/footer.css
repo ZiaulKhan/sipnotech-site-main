@@ -1,0 +1,293 @@
+.sipnotech__footer {
+  padding: 5rem 3.5rem;
+  font-family: var(--font-family);
+}
+.sipnotech__footer-links_logo {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 2.5rem;
+  margin-bottom: 0.8rem;
+}
+h3 {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  margin: 0rem 0rem 1.5rem 0rem;
+}
+h4 {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+span {
+  color: var(--color-orange);
+  font-family: var(--font-family);
+}
+.sipnotech__footer_li {
+  font-size: 0.8rem !important;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 0.7rem 0rem;
+  font-weight: bold;
+}
+
+.sipnotech__footer-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sipnotech__footer-links_container {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+}
+
+.sipnotech__footer-menu {
+  display: none;
+  position: relative;
+}
+.sipnotech__footer-links_logo_about_contact_container {
+  width: 25rem;
+}
+.sipnotech__footer-links_contact_container {
+  display: flex;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 1.5rem 0rem;
+  gap: 2rem;
+}
+
+.sipnotech__footer-links_contact_container_phone_number {
+  font-size: 0.85rem;
+}
+.sipnotech__footer-links_contact_container_emailId {
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+.sipnotech__footer-links_logo_about_text {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 0rem 2rem;
+  padding: 0;
+  color: var(--color-text-grey);
+  width: 75%;
+}
+.sipnotech__footer-links_social_container {
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+.sipnotech__footer-links_contact_container_social_icons {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
+  font-size: 1.5rem;
+}
+.sipnotech__footer-newsletter_input {
+  padding: 1rem 3rem 1rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.302);
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+  color: var(--color-text);
+}
+.sipnotech__footer-newsletter_input::placeholder {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+}
+.sipnotech__footer-services_container,
+.sipnotech__footer-company_container,
+.sipnotech__footer-newsletter_container {
+  margin-top: 0.8rem;
+}
+
+.sipnotech__footer-careers {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .sipnotech__footer {
+    padding: 5rem 3.5rem;
+    font-family: var(--font-family);
+  }
+  .sipnotech__footer-links_logo {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+  h3 {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+  }
+  h4 {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+  }
+  span {
+    color: var(--color-orange);
+    font-family: var(--font-family);
+  }
+  .sipnotech__footer_li {
+    font-size: 0.8rem !important;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    padding: 0.7rem 0rem;
+    font-weight: bold;
+  }
+
+  .sipnotech__footer-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sipnotech__footer-links_container {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .sipnotech__footer-menu {
+    display: none;
+    position: relative;
+  }
+  .sipnotech__footer-links_logo_about_contact_container {
+    width: 25rem;
+  }
+  .sipnotech__footer-links_contact_container {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    padding: 1.5rem 0rem;
+    gap: 2rem;
+  }
+
+  .sipnotech__footer-links_contact_container_phone_number {
+    font-size: 0.85rem;
+  }
+  .sipnotech__footer-links_contact_container_emailId {
+    font-size: 0.85rem;
+    text-decoration: underline;
+  }
+  .sipnotech__footer-links_logo_about_text {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    padding: 0rem 2rem;
+    padding: 0;
+    color: var(--color-text-grey);
+    width: 75%;
+  }
+  .sipnotech__footer-links_social_container {
+    color: var(--color-text);
+    font-family: var(--font-family);
+  }
+  .sipnotech__footer-links_contact_container_social_icons {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0rem;
+    font-size: 1.5rem;
+  }
+  .sipnotech__footer-newsletter_input {
+    padding: 1rem 3rem 1rem 0.4rem;
+    background-color: rgba(255, 255, 255, 0.302);
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    color: var(--color-text);
+  }
+  .sipnotech__footer-newsletter_input::placeholder {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+  }
+  .sipnotech__footer-services_container,
+  .sipnotech__footer-company_container,
+  .sipnotech__footer-newsletter_container {
+    margin-top: 0.8rem;
+  }
+
+  .sipnotech__footer-careers {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sipnotech__footer {
+    padding: 3rem 1rem;
+    margin: 0rem;
+  }
+  .sipnotech__footer-links_logo_about_contact_container {
+    width: 100%;
+  }
+  .sipnotech__footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Poppins";
+  }
+  .sipnotech__footer_li {
+    display: none;
+  }
+  .sipnotech__footer-links_logo {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    margin: 0.5rem 0rem;
+  }
+  .sipnotech__footer-links_logo_about_text {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 0.625rem;
+    padding: 0rem 2rem;
+    padding: 0;
+    color: var(--color-text-grey);
+    width: auto;
+    max-width: 30rem;
+  }
+  .sipnotech__footer-links_contact_container {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    padding: 1rem 0rem;
+    gap: 1rem;
+  }
+  .sipnotech__footer-careers {
+    display: block;
+    padding: 0.8rem 0rem;
+    font-size: 0.75rem;
+  }
+  .sipnotech__footer-newsletter_container {
+    display: none;
+  }
+  h3 {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 0.75rem;
+    margin: 0.1rem 0rem;
+  }
+  h4 {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 0.75rem;
+    padding-bottom: 0.2rem;
+  }
+  .sipnotech__footer-links_contact_container_social_icons {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem 0rem;
+    font-size: 1rem;
+  }
+  .sipnotech__footer-links_contact_container_phone_number {
+    font-size: 0.65rem;
+  }
+  .sipnotech__footer-links_contact_container_emailId {
+    font-size: 0.65rem;
+    text-decoration: underline;
+  }
+}

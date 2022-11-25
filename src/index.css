@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;1,200&family=Uchen&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+
+  --color-bg: #1a1a23;
+  --color-purple: #bf5af2;
+  --color-orange: #f68b37fc;
+  --color-white: #ffffff;
+  --color-text: #ffffff;
+  --color-blue: #3486b5;
+  --color-gradientBlue: #4093c1;
+  --color-text-grey: rgba(200, 205, 208, 0.8);
+}
