@@ -10,5 +10,12 @@
   --color-text: #ffffff;
   --color-blue: #3486b5;
   --color-gradientBlue: #4093c1;
-  --color-text-grey: rgba(200, 205, 208, 0.8);
+  --color-text-grey: #c8cdd0;
+  --color-light-orange: rgba(246, 139, 55, 0.4);
+  --color-bg-grey: #6f6f80;
+  --color-bg-gradient: linear-gradient(
+    113.28deg,
+    rgba(255, 255, 255, 0.4) -13.95%,
+    rgba(255, 255, 255, 0.1) 86.85%
+  );
 }

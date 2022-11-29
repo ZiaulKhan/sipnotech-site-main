@@ -29,7 +29,7 @@ const Footer = () => {
                 Email ID
               </h4>
               <p className="sipnotech__footer-links_contact_container_emailId">
-                info@sipnotech.com
+                <a href="info@sipnotech.com">info@sipnotech.com</a>
               </p>
             </div>
           </div>

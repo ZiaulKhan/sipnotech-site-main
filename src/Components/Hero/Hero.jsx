@@ -1,17 +1,18 @@
 import React from "react";
 import "./hero.css";
 import { BsPlayCircleFill } from "react-icons/bs";
-import heroImg from "../../assets/Images/Hero Section/heroImg.png";
-import vector2 from "../../assets/Images/Hero Section/vector2.png";
-import lace1 from "../../assets/Images/Hero Section/lace3.png";
-import lace2 from "../../assets/Images/Hero Section/lace3.png";
-import lace3 from "../../assets/Images/Hero Section/lace3.png";
+import heroImg from "../../assets/Images/Hero/heroImg.png";
+import vector from "../../assets/Images/Hero/vector.png";
+import lace1 from "../../assets/Images/Hero/lace.png";
+import lace2 from "../../assets/Images/Hero/lace.png";
+import lace3 from "../../assets/Images/Hero/lace.png";
 
 const Hero = () => {
   return (
     <div className="sipnotech__hero">
-      <img src={vector2} alt="" className="sipnotech__hero-vector_line" />
+      <img src={vector} alt="" className="sipnotech__hero-vector_line" />
       <div className="sipnotech__hero-blueBlur"></div>
+      <div className="sipnotech__hero-blueBlur_second"></div>
       <div className="sipnotech__hero-purpleBlur"></div>
       <div className="sipnotech__hero-purpleBlur_mobile"></div>
       <div className="sipnotech__hero-text_container">

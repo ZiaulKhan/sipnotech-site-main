@@ -26,6 +26,7 @@ button {
   background-color: var(--color-orange);
   padding: 0.8rem 1.8rem;
   border-radius: 5px;
+  border: none;
   color: var(--color-text);
 }
 
@@ -79,24 +80,13 @@ button {
     font-weight: bold;
   }
   button {
-    font-weight: bold;
     font-size: 1rem;
-    background-color: var(--color-orange);
     padding: 0.3rem 0.5rem;
     margin-top: 0.5rem;
-    border-radius: 5px;
-    color: var(--color-text);
-    border: none;
   }
   .sipnotech__navbar-links_logo {
-    color: var(--color-text);
-    font-family: var(--font-family);
     font-size: 1.3rem;
     margin-right: 2rem;
-  }
-  span {
-    color: var(--color-orange);
-    font-family: var(--font-family);
   }
 }
 

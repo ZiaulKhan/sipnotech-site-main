@@ -1,0 +1,199 @@
+.sipnotech__about {
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 3.5rem;
+  color: var(--color-text);
+  font-family: "Poppins";
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.sipnotech__about-text_container {
+  width: 50%;
+  padding: 5rem 0rem;
+}
+.sipnotech__about-text_welcome {
+  font-size: 1.27rem;
+  line-height: 2.1rem;
+  font-weight: 600;
+}
+.sipnotech__about-text_heading {
+  font-size: 2.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 3.5rem;
+  padding: 0.8rem 0rem;
+}
+.sipnotech__about-text_para {
+  color: var(--color-text-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 0.8rem 0rem;
+  width: auto;
+  max-width: 35rem;
+}
+.sipnotech__about-btns_learnMoreBtn {
+  font-family: "Poppins";
+  background: var(--color-orange);
+  box-shadow: 0rem 1rem 1rem rgba(246, 138, 55, 0.126);
+  border: none;
+  border-radius: 10rem;
+  padding: 1rem 5rem;
+  font-size: 1.2rem;
+  margin: 1.5rem 0rem;
+}
+.sipnotech__about-image_container {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sipnotech__about-image {
+  max-height: 36rem;
+  padding: 3rem 0rem;
+}
+.sipnotech__about-vector_lace {
+  width: 2rem;
+  position: absolute;
+  top: 9rem;
+  right: 20.5rem;
+}
+.sipnotech__about-blueBlur {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  left: -1rem;
+  bottom: 0rem;
+  background: linear-gradient(0deg, var(--color-blue), var(--color-blue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    var(--color-gradientBlue);
+  filter: blur(10rem);
+  z-index: -5;
+}
+.sipnotech__about-purpleBlur {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  right: 0rem;
+  top: 8rem;
+  background: linear-gradient(0deg, var(--color-purple), var(--color-purple)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    var(--color-gradientBlue);
+  filter: blur(14rem);
+  z-index: -5;
+}
+.sipnotech__about-text_content_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .sipnotech__about {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .sipnotech__about-text_container {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 0rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sipnotech__about-text_welcome {
+    font-size: 0.75rem;
+  }
+  .sipnotech__about-text_heading {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
+  }
+  .sipnotech__about-text_content {
+    display: none;
+  }
+  .sipnotech__about-text_content_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sipnotech__about-text_para {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 26px;
+    padding: 0rem;
+    max-width: 30rem;
+  }
+  .sipnotech__about-btns_learnMoreBtn {
+    border-radius: 2rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    margin: 1.8rem 0rem;
+  }
+  .sipnotech__about-image_container {
+    width: 100%;
+    justify-content: center;
+  }
+  .sipnotech__about-image {
+    width: 18rem;
+    padding: 0rem;
+    margin-right: 0rem;
+  }
+  .sipnotech__about-vector_line {
+    display: none;
+  }
+
+  .sipnotech__about-vector_lace {
+    display: none;
+  }
+
+  .sipnotech__about-blueBlur {
+    display: none;
+  }
+  .sipnotech__about-purpleBlur {
+    width: 18rem;
+    height: 18rem;
+    left: 33%;
+    top: 13rem;
+    background: linear-gradient(0deg, var(--color-purple), var(--color-purple)),
+      linear-gradient(
+        0deg,
+        var(--color-gradientBlue),
+        var(--color-gradientBlue)
+      ),
+      linear-gradient(
+        0deg,
+        var(--color-gradientBlue),
+        var(--color-gradientBlue)
+      ),
+      var(--color-gradientBlue);
+    filter: blur(8rem);
+    z-index: -5;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sipnotech__about {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+  .sipnotech__about-text_welcome {
+    line-height: 0.5rem;
+  }
+  .sipnotech__about-text_heading {
+    margin-bottom: 0.6rem;
+  }
+  .sipnotech__about-text_content {
+    display: none;
+  }
+  .sipnotech__about-purpleBlur {
+    width: 15rem;
+    height: 15rem;
+    left: 5rem;
+    top: 16rem;
+  }
+}
