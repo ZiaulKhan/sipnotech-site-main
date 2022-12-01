@@ -1,0 +1,10 @@
+.card{
+    background: transparent;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.card:hover {
+    background: var(--color-text-grey);
+    transform:  translateY(0.5rem);
+}
