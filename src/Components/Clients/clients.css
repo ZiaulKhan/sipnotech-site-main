@@ -1,0 +1,382 @@
+.sipnotech__clients {
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 3.5rem;
+  color: var(--color-text);
+  font-family: "Poppins";
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.sipnotech__clients-text_container {
+  width: 50%;
+  padding: 5rem 0rem;
+}
+.sipnotech__clients-text_welcome {
+  font-size: 1.27rem;
+  line-height: 2.1rem;
+  font-weight: 600;
+}
+.sipnotech__clients-text_heading {
+  font-size: 2.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 3.5rem;
+  padding: 0.8rem 0rem;
+}
+.sipnotech__clients-text_para {
+  color: var(--color-text-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 0.8rem 0rem;
+  width: auto;
+  max-width: 35rem;
+}
+.sipnotech__clients-btns_learnMoreBtn {
+  font-family: "Poppins";
+  background: var(--color-orange);
+  box-shadow: 0rem 1rem 1rem rgba(246, 138, 55, 0.126);
+  border: none;
+  border-radius: 10rem;
+  padding: 1rem 5rem;
+  font-size: 1.2rem;
+  margin: 1.5rem 0rem;
+}
+.sipnotech__clients-image_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem 0rem;
+  margin-bottom: 3rem;
+}
+.sipnotech__clients-image_container_bgOuter {
+  background-color: var(--color-bg-grey-bg3);
+  border-radius: 20rem;
+  padding: 3.8rem;
+  position: relative;
+}
+.sipnotech__clients-image_container_bgInner {
+  background-color: var(--color-bg-grey-bg2);
+  border-radius: 20rem;
+  padding: 5rem;
+  position: relative;
+}
+.sipnotech__clients-image_container_bgImg {
+  background-color: var(--color-bg-grey-bg1);
+  border-radius: 20rem;
+  padding: 3.5rem;
+  position: relative;
+}
+.sipnotech__clients_clientPic8 {
+  position: absolute;
+  left: -1rem;
+}
+.sipnotech__clients_clientPic1 {
+  position: absolute;
+  top: -3.8rem;
+  left: 6.5rem;
+}
+.sipnotech__clients_clientPic5 {
+  position: absolute;
+  bottom: 2rem;
+  left: 11rem;
+}
+.sipnotech__clients_clientPic9 {
+  position: absolute;
+  bottom: 5rem;
+  left: 0rem;
+}
+.sipnotech__clients_clientPic10 {
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+}
+.sipnotech__clients_clientPic2 {
+  position: absolute;
+  bottom: 5rem;
+  right: -3rem;
+}
+.sipnotech__clients_clientPic3 {
+  position: absolute;
+  bottom: 0rem;
+  left: 3rem;
+}
+.sipnotech__clients_clientPic7 {
+  position: absolute;
+  top: 12rem;
+  left: -2rem;
+}
+.sipnotech__clients_clientPic4 {
+  position: absolute;
+  bottom: -3rem;
+  right: 2rem;
+}
+.sipnotech__clients_clientPic11 {
+  position: absolute;
+  bottom: 5rem;
+  left: -6rem;
+}
+.sipnotech__clients-blueBlur {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  right: 0rem;
+  top: 0rem;
+  background: linear-gradient(0deg, var(--color-blue), var(--color-blue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    var(--color-gradientBlue);
+  filter: blur(10rem);
+  z-index: -5;
+}
+.sipnotech__clients-text_content_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .sipnotech__clients {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .sipnotech__clients-text_container {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 0rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sipnotech__clients-text_welcome {
+    font-size: 0.75rem;
+  }
+  .sipnotech__clients-text_heading {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
+  }
+  .sipnotech__clients-text_content {
+    display: none;
+  }
+  .sipnotech__clients-text_content_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sipnotech__clients-text_para {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 26px;
+    padding: 0rem;
+    max-width: 30rem;
+  }
+  .sipnotech__clients-btns_learnMoreBtn {
+    border-radius: 2rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    margin: 1.8rem 0rem;
+  }
+  .sipnotech__clients-image_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+  }
+  .sipnotech__clients-image_container_bgOuter {
+    background-color: var(--color-bg-grey-bg3);
+    border-radius: 20rem;
+    padding: 3.5rem;
+    position: relative;
+  }
+  .sipnotech__clients-image_container_bgInner {
+    background-color: var(--color-bg-grey-bg2);
+    border-radius: 20rem;
+    padding: 4.7rem;
+    position: relative;
+  }
+  .sipnotech__clients-image_container_bgImg {
+    background-color: var(--color-bg-grey-bg1);
+    border-radius: 20rem;
+    padding: 3.2rem;
+    position: relative;
+  }
+  .sipnotech__clients_clientPic6 {
+    width: 4rem;
+    left: -1rem;
+  }
+  .sipnotech__clients_clientPic8 {
+    width: 3rem;
+    position: absolute;
+    left: -1rem;
+  }
+  .sipnotech__clients_clientPic1 {
+    width: 7.5rem;
+    position: absolute;
+    top: -2.9rem;
+    left: 6.5rem;
+  }
+  .sipnotech__clients_clientPic5 {
+    width: 5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 11rem;
+  }
+  .sipnotech__clients_clientPic9 {
+    width: 2.6rem;
+    position: absolute;
+    bottom: 5rem;
+    left: 0rem;
+  }
+  .sipnotech__clients_clientPic10 {
+    width: 2.5rem;
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+  }
+  .sipnotech__clients_clientPic2 {
+    width: 7.5rem;
+    position: absolute;
+    bottom: 5rem;
+    right: -3rem;
+  }
+  .sipnotech__clients_clientPic3 {
+    width: 5.5rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 3rem;
+  }
+  .sipnotech__clients_clientPic7 {
+    width: 5.4rem;
+    position: absolute;
+    top: 10rem;
+    left: -2rem;
+  }
+  .sipnotech__clients_clientPic4 {
+    width: 5.7rem;
+    position: absolute;
+    bottom: -3rem;
+    right: 2rem;
+  }
+  .sipnotech__clients_clientPic11 {
+    width: 5.7rem;
+    position: absolute;
+    bottom: 5rem;
+    left: -6rem;
+  }
+  .sipnotech__clients-blueBlur {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sipnotech__clients {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+  .sipnotech__clients-text_welcome {
+    line-height: 0.5rem;
+  }
+  .sipnotech__clients-text_heading {
+    margin-bottom: 0.6rem;
+  }
+  .sipnotech__clients-image_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0rem 1rem;
+    margin-bottom: 3rem;
+  }
+  .sipnotech__clients-image_container_bgOuter {
+    background-color: var(--color-bg-grey-bg3);
+    border-radius: 20rem;
+    padding: 2.5rem;
+    position: relative;
+  }
+  .sipnotech__clients-image_container_bgInner {
+    background-color: var(--color-bg-grey-bg2);
+    border-radius: 20rem;
+    padding: 3rem;
+    position: relative;
+  }
+  .sipnotech__clients-image_container_bgImg {
+    background-color: var(--color-bg-grey-bg1);
+    border-radius: 20rem;
+    padding: 2rem;
+    position: relative;
+  }
+  .sipnotech__clients_clientPic6 {
+    width: 2.7rem;
+    left: -1rem;
+  }
+  .sipnotech__clients_clientPic8 {
+    width: 2.5rem;
+    position: absolute;
+    left: -1rem;
+  }
+  .sipnotech__clients_clientPic1 {
+    width: 5rem;
+    position: absolute;
+    top: -2rem;
+    left: 4rem;
+  }
+  .sipnotech__clients_clientPic5 {
+    width: 3rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 7rem;
+  }
+  .sipnotech__clients_clientPic9 {
+    width: 2rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 0rem;
+  }
+  .sipnotech__clients_clientPic10 {
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+  }
+  .sipnotech__clients_clientPic2 {
+    width: 5rem;
+    position: absolute;
+    bottom: 5rem;
+    right: -3rem;
+  }
+  .sipnotech__clients_clientPic3 {
+    width: 4.5rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 3rem;
+  }
+  .sipnotech__clients_clientPic7 {
+    width: 4rem;
+    position: absolute;
+    top: 5rem;
+    left: -1rem;
+  }
+  .sipnotech__clients_clientPic4 {
+    width: 4rem;
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+  }
+  .sipnotech__clients_clientPic11 {
+    width: 4rem;
+    position: absolute;
+    bottom: 2rem;
+    left: -2rem;
+  }
+  .sipnotech__clients-text_content {
+    display: none;
+  }
+}

@@ -3,7 +3,6 @@
   color: var(--color-text);
   font-family: "Poppins";
 }
-
 .sipnotech__counter_rectangle_main {
   width: 99.9%;
   height: 13rem;
@@ -11,6 +10,14 @@
   margin: 2rem 0rem;
   text-align: center;
   transform: rotate(0.62deg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-counter-text);
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 3.5rem;
 }
 .sipnotech__counter_rectangle_behind {
   position: absolute;
@@ -23,30 +30,77 @@
   transform: rotate(-2.73deg);
   z-index: -1;
 }
-.sipnotech__counter_clients_title {
-  padding: 0.5rem 0rem;
-  font-weight: bold;
-  font-size: 1.25rem;
+.sipnotech__counter_clients {
+  border-right: 2px solid var(--color-counter-text);
+  padding: 1rem 6rem;
+}
+.sipnotech__counter_projects {
+  padding: 1rem 0rem;
+}
+.sipnotech__counter_countries {
+  border-left: 2px solid var(--color-counter-text);
+  padding: 1rem 4rem;
+}
+.sipnotech__counter_numbers {
+  color: var(--color-text);
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 1000px) {
   .sipnotech__counter_rectangle_main {
-    height: 7rem;
+    height: 8rem;
+    margin: 1rem 0rem;
+    color: var(--color-counter-text);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 3rem;
+    font-size: 2rem;
   }
   .sipnotech__counter_rectangle_behind {
-    height: 7rem;
+    height: 8rem;
   }
-  .sipnotech__counter_clients_title {
-    padding: 0.2rem 0rem;
-    font-size: 0.75rem;
+  .sipnotech__counter_clients {
+    border-right: 2px solid var(--color-counter-text);
+    padding: 0.5rem 3rem;
+  }
+  .sipnotech__counter_projects {
+    padding: 0.5rem 0rem;
+  }
+  .sipnotech__counter_countries {
+    border-left: 2px solid var(--color-counter-text);
+    padding: 0.5rem 2rem;
+  }
+  .sipnotech__counter_numbers {
+    color: var(--color-text);
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 550px) {
   .sipnotech__counter_rectangle_main {
     height: 6rem;
     margin: 1rem 0rem;
+    color: var(--color-counter-text);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 2rem;
   }
   .sipnotech__counter_rectangle_behind {
     height: 6rem;
+  }
+  .sipnotech__counter_clients {
+    border-right: 2px solid var(--color-counter-text);
+    padding: 0.2rem 2rem;
+  }
+  .sipnotech__counter_projects {
+    padding: 0.2rem 2rem;
+  }
+  .sipnotech__counter_countries {
+    border-left: 2px solid var(--color-counter-text);
+    padding: 0.2rem 1rem;
+  }
+  .sipnotech__counter_numbers {
+    color: var(--color-text);
+    font-size: 1.5rem;
   }
 }

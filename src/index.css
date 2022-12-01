@@ -18,4 +18,10 @@
     rgba(255, 255, 255, 0.4) -13.95%,
     rgba(255, 255, 255, 0.1) 86.85%
   );
+  --color-bg-grey-bg1: #ffffff38;
+  --color-bg-grey-bg2: #ffffff23;
+  --color-bg-grey-bg3: #f2f2f21a;
+  --color-counter-text: #0f2a3d;
+  --color-forms-bg: #363642;
+  --color-input-border: #eff3f5;
 }

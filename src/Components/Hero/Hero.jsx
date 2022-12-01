@@ -1,13 +1,13 @@
 import React from "react";
 import "./hero.css";
 import { BsPlayCircleFill } from "react-icons/bs";
-import heroImg from "../../assets/Images/Hero/heroImg.png";
-import vector from "../../assets/Images/Hero/vector.png";
-import lace1 from "../../assets/Images/Hero/lace.png";
-import lace2 from "../../assets/Images/Hero/lace.png";
-import lace3 from "../../assets/Images/Hero/lace.png";
+import heroImg from "../../assets/Images/HomePage/Hero/heroImg.png";
+import vector from "../../assets/Images/HomePage/Hero/vector.png";
+import lace1 from "../../assets/Images/HomePage/Hero/lace.png";
+import lace2 from "../../assets/Images/HomePage/Hero/lace.png";
+import lace3 from "../../assets/Images/HomePage/Hero/lace.png";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="sipnotech__hero">
       <img src={vector} alt="" className="sipnotech__hero-vector_line" />
@@ -17,9 +17,10 @@ const Hero = () => {
       <div className="sipnotech__hero-purpleBlur_mobile"></div>
       <div className="sipnotech__hero-text_container">
         <h1 className="sipnotech__hero-text_heading">
-          Best <span>Marketing</span>
+          {props.heading}
+          {/* Best <span>Marketing</span>
           <br />
-          Digital Agency
+          Digital Agency */}
         </h1>
         <div className="sipnotech__hero-text_content">
           <p className="sipnotech__hero-text_para">

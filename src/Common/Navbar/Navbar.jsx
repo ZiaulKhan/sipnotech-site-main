@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { GoThreeBars } from "react-icons/go";
 
@@ -27,12 +28,24 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="sipnotech__navbar-menu_container">
             <div className="sipnotech__navbar-menu_container-links">
-              <li>Home</li>
-              <li>About</li>
-              <li>Portfolio</li>
-              <li>Blog</li>
-              <li>Services</li>
-              <button>Contact</button>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+              </li>
+              <li>
+                <NavLink to="/blog">Blog</NavLink>
+              </li>
+              <li>
+                <NavLink to="/services">Services</NavLink>
+              </li>
+              <button>
+                <NavLink to="/contact-us">Contact</NavLink>
+              </button>
             </div>
           </div>
         )}
@@ -44,12 +57,24 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="sipnotech__navbar-links_container">
-          <li className="sipnotech__navbar-links_li">Home</li>
-          <li className="sipnotech__navbar-links_li">About</li>
-          <li className="sipnotech__navbar-links_li">Portfolio</li>
-          <li className="sipnotech__navbar-links_li">Blog</li>
-          <li className="sipnotech__navbar-links_li">Services</li>
-          <button>Contact</button>
+          <li className="sipnotech__navbar-links_li">
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li className="sipnotech__navbar-links_li">
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li className="sipnotech__navbar-links_li">
+            <NavLink to="/portfolio">Portfolio</NavLink>
+          </li>
+          <li className="sipnotech__navbar-links_li">
+            <NavLink to="/blog">Blog</NavLink>
+          </li>
+          <li className="sipnotech__navbar-links_li">
+            <NavLink to="/services">Services</NavLink>
+          </li>
+          <button>
+            <NavLink to="/contact-us">Contact</NavLink>
+          </button>
         </div>
       </div>
     </div>

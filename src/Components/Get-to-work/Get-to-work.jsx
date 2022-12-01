@@ -1,7 +1,7 @@
 import React from "react";
 import "./get-to-work.css";
-import getToWorkImg from "../../assets/Images/Get-to-work/getToWorkImg.png";
-import getToWorkImgMobile from "../../assets/Images/Get-to-work/getToWorkImgMobile.png";
+import getToWorkImg from "../../assets/Images/HomePage/Get-to-work/getToWorkImg.png";
+import getToWorkImgMobile from "../../assets/Images/HomePage/Get-to-work/getToWorkImgMobile.png";
 
 const Get_to_work = () => {
   return (
