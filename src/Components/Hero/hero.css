@@ -1,6 +1,7 @@
 .sipnotech__hero {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 0rem 3.5rem;
   color: var(--color-text);
   font-family: "Poppins";
@@ -12,20 +13,22 @@
 .sipnotech__hero-text_content_mobile {
   display: none;
 }
-.sipnotech__hero-text_heading {
+.sipnotech__hero-text_title {
   font-size: 4.5rem;
   font-family: "Poppins";
   font-style: normal;
   line-height: 5.9375rem;
+  gap: 1rem;
 }
 .sipnotech__hero-text_para {
   color: var(--color-text-grey);
   font-style: normal;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.625rem;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   max-width: 35rem;
+  margin-top: 1rem;
 }
 .sipnotech__hero-btns {
   display: flex;
@@ -60,7 +63,7 @@
 .sipnotech__hero-image {
   width: 37rem;
   max-height: 36rem;
-  padding: 3rem 0rem;
+  padding: 1rem 0rem;
 }
 .sipnotech__hero-vector_line {
   width: 60rem;
@@ -144,7 +147,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .sipnotech__hero-text_heading {
+  .sipnotech__hero-text_title {
     font-size: 2.5rem;
     line-height: 3rem;
   }

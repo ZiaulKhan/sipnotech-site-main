@@ -1,0 +1,117 @@
+.sipnotech__work-together_content-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0rem 4rem;
+  color: var(--color-text);
+  font-family: "Poppins";
+  position: relative;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.sipnotech__work-together-text_container {
+  padding: 3rem 0.5rem;
+  margin-top: 2.5rem;
+}
+.sipnotech__work-together-text_small-heading {
+  color: var(--color-orange);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.sipnotech__work-together-text_heading {
+  font-size: 3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 3.87rem;
+  padding: 1rem 0rem;
+}
+.sipnotech__work-together_btn {
+  font-size: 1.3rem;
+  padding: 0.8rem 3rem;
+  border-radius: 20rem;
+  font-family: "Poppins";
+}
+.sipnotech__work-together_bg {
+  position: absolute;
+  width: 80vw;
+  height: 19rem;
+  background: var(--color-bg-gradient);
+  backdrop-filter: blur(0.428rem);
+  border-radius: 0.856rem;
+  z-index: -1;
+}
+.sipnotech__work-together_blueBlur-left {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: -10.75rem;
+  top: -10rem;
+  background: linear-gradient(0deg, var(--color-blue), var(--color-blue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    var(--color-gradientBlue);
+  filter: blur(14rem);
+  z-index: -5;
+}
+.sipnotech__work-together_blueBlur-right {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  right: 0rem;
+  top: -5rem;
+  background: linear-gradient(0deg, var(--color-blue), var(--color-blue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    linear-gradient(0deg, var(--color-gradientBlue), var(--color-gradientBlue)),
+    var(--color-gradientBlue);
+  filter: blur(14rem);
+  z-index: -5;
+}
+
+@media screen and (max-width: 1000px) {
+  .sipnotech__work-together-text_container {
+    min-width: 30rem;
+  }
+  .sipnotech__work-together-text_heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 0rem;
+  }
+
+  .sipnotech__work-together_btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 2rem;
+    margin: 0.5rem 0rem;
+  }
+  .sipnotech__work-together_bg {
+    margin-inline: 10vw;
+    height: 13rem;
+  }
+  .sipnotech__work-together_blueBlur-right {
+    display: none;
+  }
+  .sipnotech__work-together_blueBlur-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sipnotech__work-together_content-container {
+    padding: 0rem;
+  }
+  .sipnotech__work-together-text_container {
+    min-width: 0rem;
+    padding: 0.9rem 0.5rem;
+  }
+  .sipnotech__work-together-text_heading {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .sipnotech__work-together_btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .sipnotech__work-together_bg {
+    width: 90vw;
+    height: 8rem;
+  }
+}

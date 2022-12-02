@@ -2,6 +2,7 @@
   position: relative;
   color: var(--color-text);
   font-family: "Poppins";
+  margin: 3rem 0rem;
 }
 .sipnotech__counter_rectangle_main {
   width: 99.9%;

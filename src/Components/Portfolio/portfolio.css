@@ -1,0 +1,80 @@
+.sipnotech__portfolio_cards-card {
+  border-radius: 25px;
+  margin: 0.5rem;
+  max-height: auto;
+  padding: 1rem 0rem;
+}
+
+.sipnotech__portfolio {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  letter-spacing: 0.02em;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.sipnotech__portfolio_categories_container {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding: 3rem 0rem;
+  font-size: 1.5rem;
+}
+.sipnotech__portfolio_categories:hover {
+  border-bottom: 1.5px solid var(--color-text-grey);
+}
+.sipnotech__portfolio_title {
+  font-size: 3rem;
+  line-height: 1rem;
+  padding: 2rem 0rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+.sipnotech__portfolio_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sipnotech__portfolio_cards-card_img {
+  width: 90%;
+}
+.sipnotech__portfolio_cards_title {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+@media screen and (max-width: 900px) {
+  .sipnotech__portfolio {
+    padding: 2rem 0.5rem;
+  }
+  .sipnotech__portfolio_categories_container {
+    gap: 5rem;
+    padding: 2rem 0.5rem;
+    letter-spacing: 0em;
+    font-size: 0.75rem;
+  }
+  .sipnotech__portfolio_title {
+    font-size: 2rem;
+    padding: 0rem;
+  }
+  .sipnotech__portfolio_heading {
+    font-size: 1.3rem;
+    padding: 0.5rem 0rem;
+  }
+  .sipnotech__portfolio_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sipnotech__portfolio_cards-card_img {
+    width: 100%;
+  }
+  .sipnotech__portfolio_cards_title {
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sipnotech__portfolio_categories_container {
+    gap: 1.2em;
+  }
+  .sipnotech__portfolio_categories:hover {
+    border-bottom: 1.5px solid var(--color-text-grey);
+  }
+}

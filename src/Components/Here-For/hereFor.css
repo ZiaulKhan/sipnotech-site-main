@@ -1,7 +1,8 @@
 .sipnotech__hereFor {
   display: flex;
   justify-content: space-around;
-  padding: 0rem 3.5rem;
+  align-items: center;
+  padding: 2rem 3.5rem;
   color: var(--color-text);
   font-family: "Poppins";
   position: relative;
@@ -52,7 +53,7 @@
 }
 .sipnotech__hereFor-image {
   max-height: 36rem;
-  padding: 3rem 0rem;
+  padding: 0rem 0rem;
 }
 .sipnotech__hereFor-vector_lace {
   width: 2rem;
@@ -94,12 +95,12 @@
   .sipnotech__hereFor {
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 2rem 0rem;
   }
   .sipnotech__hereFor-text_container {
     text-align: center;
     width: 100%;
-    padding: 0rem 0rem;
+    padding: 0rem;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -179,7 +180,7 @@
 
 @media screen and (max-width: 550px) {
   .sipnotech__hereFor {
-    padding: 2rem 1rem 0rem 1rem;
+    padding: 3rem 1rem;
   }
   .sipnotech__hereFor-text_welcome {
     line-height: 0.5rem;

@@ -46,7 +46,9 @@ button {
   display: none;
   position: relative;
 }
-
+.active {
+  border-bottom: 2px solid var(--color-orange);
+}
 @media screen and (max-width: 900px) {
   .sipnotech__navbar {
     padding: 1rem;

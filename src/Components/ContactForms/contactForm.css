@@ -2,7 +2,7 @@
   display: flex;
   font-family: var(--font-family);
   color: var(--color-text);
-  padding: 1rem 4rem;
+  padding: 3rem 4rem;
   gap: 3rem;
   height: auto;
   letter-spacing: 0.02em;
@@ -189,7 +189,7 @@
 @media screen and (max-width: 800px) {
   .sipnotech__contact-forms_container {
     flex-direction: column;
-    padding: 1rem 1.5rem;
+    padding: 3rem 1.5rem;
   }
   .sipnotech__contacts-forms_forms-container {
     width: 100%;

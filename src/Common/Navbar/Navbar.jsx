@@ -58,22 +58,34 @@ const Navbar = () => {
         </div>
         <div className="sipnotech__navbar-links_container">
           <li className="sipnotech__navbar-links_li">
-            <NavLink to="/">Home</NavLink>
+            <NavLink activeClassName="active" to="/">
+              Home
+            </NavLink>
           </li>
           <li className="sipnotech__navbar-links_li">
-            <NavLink to="/about">About</NavLink>
+            <NavLink activeClassName="active" to="/about">
+              About
+            </NavLink>
           </li>
           <li className="sipnotech__navbar-links_li">
-            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink activeClassName="active" to="/portfolio">
+              Portfolio
+            </NavLink>
           </li>
           <li className="sipnotech__navbar-links_li">
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink activeClassName="active" to="/blog">
+              Blog
+            </NavLink>
           </li>
           <li className="sipnotech__navbar-links_li">
-            <NavLink to="/services">Services</NavLink>
+            <NavLink activeClassName="active" to="/services">
+              Services
+            </NavLink>
           </li>
           <button>
-            <NavLink to="/contact-us">Contact</NavLink>
+            <NavLink activeClassName="active" to="/contact-us">
+              Contact
+            </NavLink>
           </button>
         </div>
       </div>

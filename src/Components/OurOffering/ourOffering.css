@@ -1,0 +1,128 @@
+.sipnotech__our-offering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  letter-spacing: 0.02em;
+  padding: 5rem 0rem;
+}
+.sipnotech__our-offering_header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.sipnotech__our-offering_header-title {
+  font-size: 3rem;
+}
+.sipnotech__our-offering_header-text {
+  font-size: 1.25rem;
+  max-width: 60rem;
+}
+.sipnotech__our-offering_card-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-inline: 2rem;
+}
+.sipnotech__our-offering_card {
+  border: 1px solid var(--color-bg-grey);
+  border-radius: 1rem;
+  padding: 4rem 1rem;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.sipnotech__our-offering_card:hover {
+  background: var(--color-bg-gradient);
+}
+.sipnotech__our-offering_card-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.sipnotech__our-offering_card-desc {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-text-grey);
+}
+.sipnotech__our-offering_card-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+}
+.sipnotech__our-offering_card-img-bg {
+  position: absolute;
+  filter: blur(7px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: -1;
+  bottom: -1rem;
+  width: 90%;
+}
+@media screen and (max-width: 1000px) {
+  .sipnotech__our-offering_header {
+    gap: 1rem;
+    padding: 3rem 0.5rem;
+  }
+  .sipnotech__our-offering_header-title {
+    font-size: 1.8rem;
+  }
+  .sipnotech__our-offering_header-text {
+    font-size: 1rem;
+    max-width: 40rem;
+  }
+  .sipnotech__our-offering_card-container {
+    gap: 1rem;
+    padding: 0rem 0rem;
+  }
+  .sipnotech__our-offering_card {
+    padding: 2rem 1rem;
+    max-width: 15rem;
+    display: flex;
+    gap: 0rem;
+  }
+  .sipnotech__our-offering_card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .sipnotech__our-offering_card-desc {
+    font-size: 0.9rem;
+  }
+  .sipnotech__our-offering_card-img-container {
+    height: 10rem;
+  }
+  .sipnotech__our-offering_card-img {
+    width: 90%;
+  }
+  .sipnotech__our-offering_card-img-bg {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sipnotech__our-offering_header-text {
+    max-width: 60rem;
+  }
+  .sipnotech__our-offering_card-container {
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .sipnotech__our-offering_card {
+    max-width: 25rem;
+    gap: 1rem;
+  }
+  .sipnotech__our-offering_card-img-container {
+    height: 13rem;
+  }
+  .sipnotech__our-offering_card-img-bg {
+    width: 90%;
+  }
+}
