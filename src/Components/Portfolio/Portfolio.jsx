@@ -6,25 +6,21 @@ import data from "../../Data/PortfolioData";
 const Portfolio = (props) => {
   const category = data.map((item) => item.category);
   const uniqueCategory = ["All", ...new Set(category)];
-
+  const [project, setProject] = useState(data);
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const onClick = (activeCat) => {
+  const displayData = (activeCat) => {
     setActiveCategory(activeCat);
-  };
-
-  const [project, setProject] = useState(data);
-
-  const displayData = (activeCategory) => {
-    if (activeCategory === "All") {
+    if (activeCat === "All") {
       setProject(data);
-      return;
     } else {
-      const filterProject = data.filter((item) => item.category === category);
-      setProject(filterProject);
+      let filterData = data.filter(function (value) {
+        return value.category === activeCat;
+      });
+      setProject(filterData);
     }
   };
-  displayData();
+
   return (
     <div className="sipnotech__portfolio">
       <h1 className="sipnotech__portfolio_heading">{props.heading}</h1>
@@ -32,16 +28,18 @@ const Portfolio = (props) => {
       <div className="sipnotech__portfolio_categories_container">
         {uniqueCategory.map((item) => (
           <p
-            key={item.id}
-            onClick={() => onClick(item)}
-            onFilterProjects={displayData()}
+            key={item}
+            onClick={() => displayData(item)}
+            style={{
+              borderBottom: activeCategory === item ? "2px solid #c8cdd0" : "",
+            }}
             className="sipnotech__portfolio_categories">
             {item}
           </p>
         ))}
       </div>
       <div className="sipnotech__portfolio_cards">
-        {data.map((item) => (
+        {project.map((item) => (
           <Card key={item.id} className="sipnotech__portfolio_cards-card">
             <img
               className="sipnotech__portfolio_cards-card_img"

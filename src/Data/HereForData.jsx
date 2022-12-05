@@ -15,7 +15,7 @@ const heroData = [
     img2: lace,
     heading: "WELCOME TO SIPNOTECH",
     title: (
-      <h1 className="sipnotech__hereFor-text_heading">
+      <h1 className="sipnotech__hereFor_text-heading">
         We are here for <br />
         Business <span>Solutions & Ideas</span>
       </h1>
@@ -24,7 +24,7 @@ const heroData = [
     desc2:
       "Lorem ipsum dolor sit amet consectetur. Fermentum nisi tellus pharetra risus libero morbi lo.",
     learnMoreBtn: (
-      <button className="sipnotech__hereFor-btns_learnMoreBtn">
+      <button className="sipnotech__hereFor_btns-learnMoreBtn">
         Learn More
       </button>
     ),
@@ -35,7 +35,7 @@ const heroData = [
     img1: aboutHereForImg,
     heading: "GET TO KNOW US",
     title: (
-      <h1 className="sipnotech__hereFor-text_heading">
+      <h1 className="sipnotech__hereFor_text-heading">
         We are here for <br />
         Business <span>Solutions & Ideas</span>
       </h1>

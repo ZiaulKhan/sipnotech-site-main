@@ -15,12 +15,15 @@
 .sipnotech__portfolio_categories_container {
   display: flex;
   justify-content: center;
-  gap: 7rem;
+  gap: 5rem;
   padding: 3rem 0rem;
   font-size: 1.5rem;
+  margin-inline: 1rem;
 }
+
 .sipnotech__portfolio_categories:hover {
-  border-bottom: 1.5px solid var(--color-text-grey);
+  border-bottom: 1.5px solid var(--color-bg-grey);
+  cursor: pointer;
 }
 .sipnotech__portfolio_title {
   font-size: 3rem;
@@ -41,7 +44,7 @@
   padding: 1rem 0rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .sipnotech__portfolio {
     padding: 2rem 0.5rem;
   }
@@ -71,6 +74,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .sipnotech__portfolio {
+    padding: 2rem 0.5rem;
+  }
   .sipnotech__portfolio_categories_container {
     gap: 1.2em;
   }

@@ -8,23 +8,23 @@
   position: relative;
   letter-spacing: 0.02em;
 }
-.sipnotech__hereFor-text_container {
+.sipnotech__hereFor_text-container {
   width: 50%;
   padding: 5rem 0rem;
 }
-.sipnotech__hereFor-text_welcome {
+.sipnotech__hereFor_text-welcome {
   font-size: 1.27rem;
   line-height: 2.1rem;
   font-weight: 600;
 }
-.sipnotech__hereFor-text_heading {
+.sipnotech__hereFor_text-heading {
   font-size: 2.8rem;
   font-family: "Poppins";
   font-style: normal;
   line-height: 3.5rem;
   padding: 0.8rem 0rem;
 }
-.sipnotech__hereFor-text_para {
+.sipnotech__hereFor_text-para {
   color: var(--color-text-grey);
   font-style: normal;
   font-weight: 400;
@@ -34,7 +34,7 @@
   width: auto;
   max-width: 35rem;
 }
-.sipnotech__hereFor-btns_learnMoreBtn {
+.sipnotech__hereFor_btns-learnMoreBtn {
   font-family: "Poppins";
   background: var(--color-orange);
   box-shadow: 0rem 1rem 1rem rgba(246, 138, 55, 0.126);
@@ -44,24 +44,24 @@
   font-size: 1.2rem;
   margin: 1.5rem 0rem;
 }
-.sipnotech__hereFor-image_container {
+.sipnotech__hereFor_image-container {
   width: 50%;
   position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.sipnotech__hereFor-image {
+.sipnotech__hereFor_image {
   max-height: 36rem;
   padding: 0rem 0rem;
 }
-.sipnotech__hereFor-vector_lace {
+.sipnotech__hereFor_vector-lace {
   width: 2rem;
   position: absolute;
   top: 9rem;
   right: 20.5rem;
 }
-.sipnotech__hereFor-blueBlur {
+.sipnotech__hereFor_blueBlur {
   position: absolute;
   width: 20rem;
   height: 20rem;
@@ -74,7 +74,7 @@
   filter: blur(10rem);
   z-index: -5;
 }
-.sipnotech__hereFor-purpleBlur {
+.sipnotech__hereFor_purpleBlur {
   position: absolute;
   width: 30rem;
   height: 30rem;
@@ -87,7 +87,7 @@
   filter: blur(14rem);
   z-index: -5;
 }
-.sipnotech__hereFor-text_content_mobile {
+.sipnotech__hereFor_text-content_mobile {
   display: none;
 }
 
@@ -97,7 +97,7 @@
     justify-content: center;
     padding: 2rem 0rem;
   }
-  .sipnotech__hereFor-text_container {
+  .sipnotech__hereFor_text-container {
     text-align: center;
     width: 100%;
     padding: 0rem;
@@ -106,57 +106,57 @@
     flex-direction: column;
     align-items: center;
   }
-  .sipnotech__hereFor-text_welcome {
+  .sipnotech__hereFor_text-welcome {
     font-size: 0.75rem;
   }
-  .sipnotech__hereFor-text_heading {
+  .sipnotech__hereFor_text-heading {
     font-size: 1.5rem;
     line-height: 2.1rem;
     margin-bottom: 1rem;
   }
-  .sipnotech__hereFor-text_content {
+  .sipnotech__hereFor_text-content {
     display: none;
   }
-  .sipnotech__hereFor-text_content_mobile {
+  .sipnotech__hereFor_text-content_mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .sipnotech__hereFor-text_para {
+  .sipnotech__hereFor_text-para {
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 26px;
     padding: 0rem;
     max-width: 30rem;
   }
-  .sipnotech__hereFor-btns_learnMoreBtn {
+  .sipnotech__hereFor_btns-learnMoreBtn {
     border-radius: 2rem;
     padding: 0.6rem 2.5rem;
     font-size: 1rem;
     margin: 1.8rem 0rem;
   }
-  .sipnotech__hereFor-image_container {
+  .sipnotech__hereFor_image-container {
     width: 100%;
     justify-content: center;
   }
-  .sipnotech__hereFor-image {
+  .sipnotech__hereFor_image {
     width: 18rem;
     padding: 0rem;
     margin-right: 0rem;
   }
-  .sipnotech__hereFor-vector_line {
+  .sipnotech__hereFor_vector-line {
     display: none;
   }
 
-  .sipnotech__hereFor-vector_lace {
+  .sipnotech__hereFor_vector-lace {
     display: none;
   }
 
-  .sipnotech__hereFor-blueBlur {
+  .sipnotech__hereFor_blueBlur {
     display: none;
   }
-  .sipnotech__hereFor-purpleBlur {
+  .sipnotech__hereFor_purpleBlur {
     width: 18rem;
     height: 18rem;
     left: 33%;
@@ -182,16 +182,16 @@
   .sipnotech__hereFor {
     padding: 3rem 1rem;
   }
-  .sipnotech__hereFor-text_welcome {
+  .sipnotech__hereFor_text-welcome {
     line-height: 0.5rem;
   }
-  .sipnotech__hereFor-text_heading {
+  .sipnotech__hereFor_text-heading {
     margin-bottom: 0.6rem;
   }
-  .sipnotech__hereFor-text_content {
+  .sipnotech__hereFor_text-content {
     display: none;
   }
-  .sipnotech__hereFor-purpleBlur {
+  .sipnotech__hereFor_purpleBlur {
     width: 15rem;
     height: 15rem;
     left: 5rem;

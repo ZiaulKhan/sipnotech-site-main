@@ -76,7 +76,11 @@
     line-height: 2.5rem;
     padding: 0rem;
   }
-
+  .sipnotech__work-together-text_small-heading {
+    color: var(--color-orange);
+    font-weight: 600;
+    font-size: 1rem;
+  }
   .sipnotech__work-together_btn {
     font-size: 0.9rem;
     padding: 0.6rem 2rem;
