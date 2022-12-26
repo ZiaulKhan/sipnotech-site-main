@@ -15,6 +15,7 @@ import hereForData from "../Data/HereForData";
 
 const Home = () => {
   let item = heroData.find((i) => i.id === 1);
+
   let item2 = hereForData.find((i) => i.id === 1);
 
   return (

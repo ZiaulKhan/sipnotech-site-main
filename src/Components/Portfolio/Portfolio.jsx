@@ -6,18 +6,18 @@ import data from "../../Data/PortfolioData";
 const Portfolio = (props) => {
   const category = data.map((item) => item.category);
   const uniqueCategory = ["All", ...new Set(category)];
-  const [project, setProject] = useState(data);
+  const [content, setContent] = useState(data);
   const [activeCategory, setActiveCategory] = useState("All");
 
   const displayData = (activeCat) => {
     setActiveCategory(activeCat);
     if (activeCat === "All") {
-      setProject(data);
+      setContent(data);
     } else {
       let filterData = data.filter(function (value) {
         return value.category === activeCat;
       });
-      setProject(filterData);
+      setContent(filterData);
     }
   };
 
@@ -39,7 +39,7 @@ const Portfolio = (props) => {
         ))}
       </div>
       <div className="sipnotech__portfolio_cards">
-        {project.map((item) => (
+        {content.map((item) => (
           <Card key={item.id} className="sipnotech__portfolio_cards-card">
             <img
               className="sipnotech__portfolio_cards-card_img"
